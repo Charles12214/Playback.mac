@@ -16,9 +16,9 @@ if [ ! -d "$APP_BUNDLE" ]; then
 fi
 
 VERSION="1.0.0"
-DMG_NAME="Playback-${VERSION}.dmg"
-PKG_NAME="Playback-${VERSION}.pkg"
-VOL_NAME="Playback"
+DMG_NAME="Playback.mac-${VERSION}.dmg"
+PKG_NAME="Playback.mac-${VERSION}.pkg"
+VOL_NAME="Playback.mac"
 
 # 2. Create .pkg Installer
 echo "📦 Generating macOS .pkg Installer Package (${PKG_NAME})..."
