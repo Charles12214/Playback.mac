@@ -1,0 +1,9 @@
+.build/
+*.app
+*.dmg
+*.pkg
+build_dmg_staging/
+temp.dmg
+AppIcon_Master.png
+*.iconset/
+.DS_Store
